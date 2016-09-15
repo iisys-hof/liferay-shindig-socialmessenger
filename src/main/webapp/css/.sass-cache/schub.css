@@ -1,0 +1,216 @@
+/**
+ * Copyright (c) 2000-present Liferay, Inc. All rights reserved.
+ *
+ * This file is originally part of Liferay Social Office and
+ * was modified for the Social Collaboration Hub (www.sc-hub.de).
+ *
+ * Liferay Social Office is free software:
+ * You can redistribute it and/or modify it under the terms of the GNU
+ * Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License, or (at your option) any later version.
+ *
+ * Liferay Social Office is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+ * for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with the
+ * Social Collaboration Hub. If not, see http://www.gnu.org/licenses/agpl-3.0.html.
+ */
+.shindig-messaging-portlet {
+  /* ---------- Messages ---------- */
+  /* ---------- Results ---------- */
+  /* ---------- Thread ---------- */ }
+  .shindig-messaging-portlet .layout {
+    width: auto; }
+  .shindig-messaging-portlet .alert {
+    margin-bottom: 0; }
+  .shindig-messaging-portlet .column-content .check-all {
+    margin: 0 20px 0 5px; }
+  .shindig-messaging-portlet .lfr-search-container {
+    margin: 0 0 0 -1px; }
+  .shindig-messaging-portlet .controls {
+    background: #EEE9E9;
+    border-bottom-width: 0;
+    padding: 5px 10px; }
+    .shindig-messaging-portlet .controls .check-all {
+      margin: 9px 6px 9px 0; }
+  .shindig-messaging-portlet img.avatar {
+    width: 60px; }
+  .shindig-messaging-portlet .body {
+    clear: right;
+    word-break: break-word; }
+  .shindig-messaging-portlet .thread .message-container {
+    margin: 0 10px; }
+  .shindig-messaging-portlet .message-container .portlet-msg-error {
+    display: block;
+    margin-bottom: 10px; }
+  .shindig-messaging-portlet .message-attachments {
+    clear: both; }
+    .shindig-messaging-portlet .message-attachments li {
+      list-style: none; }
+  .shindig-messaging-portlet .message-to input, .shindig-messaging-portlet .message-subject input {
+    width: 300px; }
+  .shindig-messaging-portlet .message-body, .shindig-messaging-portlet .message-subject, .shindig-messaging-portlet .message-to {
+    box-sizing: border-box;
+    width: 100%; }
+  .shindig-messaging-portlet .message-body {
+    min-height: 100px; }
+  .shindig-messaging-portlet input[type="file"] {
+    height: 24px;
+    line-height: 24px;
+    padding: 0; }
+  .shindig-messaging-portlet .author-sender, .shindig-messaging-portlet .name {
+    float: left;
+    /* font-weight: bold; */
+    padding-right: 0.3em; }
+  .shindig-messaging-portlet .message-link {
+    display: block;
+    margin: -10px;
+    padding: 10px;
+    padding-left: 80px;
+    position: relative;
+    z-index: 1; }
+    .shindig-messaging-portlet .message-link .body {
+      color: #666; }
+    .shindig-messaging-portlet .message-link .subject {
+      clear: right;
+      color: #333;
+      word-break: break-word; }
+  .shindig-messaging-portlet .private-messaging-container .results-header, .shindig-messaging-portlet .taglib-user-display.display-style-2 .user-details, .shindig-messaging-portlet .taglib-user-display.display-style-2 .user-name {
+    display: none; }
+  .shindig-messaging-portlet .table {
+    border-top-width: 0;
+    margin-bottom: 0; }
+    .shindig-messaging-portlet .table thead {
+      display: none; }
+    .shindig-messaging-portlet .table .first {
+      vertical-align: middle;
+      width: 12px; }
+  .shindig-messaging-portlet .table-striped .table-data .first, .shindig-messaging-portlet .table-striped .table-data .last {
+    background: none; }
+  .shindig-messaging-portlet .unread {
+    font-weight: bold; }
+    .shindig-messaging-portlet .unread .body {
+      font-weight: normal; }
+  .shindig-messaging-portlet .messages .table-data tr:hover td, .shindig-messaging-portlet .messages .table-data tr:nth-child(odd) td, .shindig-messaging-portlet .messages .table-data tr td {
+    background: #FFF;
+    padding: 10px; }
+  .shindig-messaging-portlet .messages .table-data tr.unread td {
+    background: #F0F5F7; }
+  .shindig-messaging-portlet .taglib-page-iterator {
+    padding: 10px; }
+    .shindig-messaging-portlet .taglib-page-iterator .lfr-pagination-buttons, .shindig-messaging-portlet .taglib-page-iterator .lfr-pagination-config, .shindig-messaging-portlet .taglib-page-iterator .search-results {
+      line-height: 30px; }
+  .shindig-messaging-portlet .taglib-search-iterator-page-iterator-top {
+    border-top: 1px solid #DDD;
+    margin-bottom: 0; }
+  .shindig-messaging-portlet .thread .taglib-header {
+    border-top: 1px solid #C8C9CA;
+    margin-top: 0;
+    padding: 0 10px; }
+    .shindig-messaging-portlet .thread .taglib-header .header-title {
+      display: inline; }
+      .shindig-messaging-portlet .thread .taglib-header .header-title span {
+        white-space: normal;
+        word-break: break-all; }
+  .shindig-messaging-portlet .thread .body {
+    margin-top: 5px; }
+    .shindig-messaging-portlet .thread .body .image-thumbnail {
+      float: left;
+      height: 150px;
+      margin: 10px;
+      width: 150px; }
+      .shindig-messaging-portlet .thread .body .image-thumbnail img {
+        max-height: 150px;
+        max-width: 150px; }
+  .shindig-messaging-portlet .thread .thread-info {
+    padding: 0 10px 10px; }
+  .shindig-messaging-portlet .thread tr td {
+    background-color: transparent;
+    border-bottom: 1px solid #CFCFCF; }
+    .shindig-messaging-portlet .thread tr td.last, .shindig-messaging-portlet .thread tr td.only {
+      border-bottom-width: 0; }
+  .shindig-messaging-portlet .thread .lfr-search-container, .shindig-messaging-portlet .thread .message-body-container-content {
+    margin: 0 10px; }
+  .shindig-messaging-portlet .thread .name {
+    font-weight: bold; }
+  .shindig-messaging-portlet .thread .back-button {
+    float: right; }
+  .shindig-messaging-portlet .date {
+    color: #777;
+    float: right;
+    font-size: 11px; }
+  .shindig-messaging-portlet .messages .taglib-user-display, .shindig-messaging-portlet .thread .taglib-user-display {
+    float: left;
+    padding: 0; }
+  .shindig-messaging-portlet .line-through {
+    text-decoration: line-through; }
+
+/* ---------- Extras ---------- */
+.shindig-messaging-portlet .controls {
+  border-radius: 4px; }
+
+/* ---------- SCHub Changes - view.jsp ------ */
+.shindig-messaging-portlet .author-sender {
+  color: #009ae5; }
+.shindig-messaging-portlet .pagination {
+  margin-top: 0;
+  margin-top: 10px; }
+.shindig-messaging-portlet .comment-form, .shindig-messaging-portlet .comment-form input {
+  margin: 0; }
+.shindig-messaging-portlet .comment-form input {
+  width: 75%;
+  margin-top: 5px; }
+.shindig-messaging-portlet .user-profile-image {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 4px 0; }
+.shindig-messaging-portlet .user-profile-image img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+.shindig-messaging-portlet td.highlighted {
+  background-color: #FFDAB9 !important; }
+
+/* ---------- MicroBlog ---------- */
+.shindig-messaging-portlet .shindigmsg-entry-form {
+  float: left;
+  margin: 0; }
+
+.shindig-messaging-portlet .shindigmsg-entry-form button {
+  margin-right: 5px; }
+
+.shindig-messaging-portlet .shindigmsg-entry-form .control-group,
+.shindig-messaging-portlet .shindigmsg-entry-form .control-group input {
+  float: left;
+  margin: 0; }
+
+/* ----------- new_message.jsp -------- */
+.shindig-messaging-portlet .new-social-message .control-group {
+  margin-bottom: 10px; }
+.shindig-messaging-portlet .new-social-message form input, .shindig-messaging-portlet .shindig-messaging-portlet .new-social-message form textarea {
+  border-radius: 3px; }
+.shindig-messaging-portlet .new-social-message form textarea {
+  min-height: 10em; }
+.shindig-messaging-portlet .new-social-message form textarea span {
+  background-color: #97d1ff;
+  color: #000;
+  padding: 2px; }
+.shindig-messaging-portlet .new-social-message .input-long {
+  width: 75%; }
+.shindig-messaging-portlet .new-social-message p.highlighted {
+  color: #009ae5; }
+.shindig-messaging-portlet ul.yui3-aclist-list {
+  margin: 0;
+  padding: 0; }
+
