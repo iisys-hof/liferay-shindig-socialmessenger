@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>ShindigMessaging</portlet-name>
+		<icon>/images/msg-icon.png</icon>
+		<configuration-action-class>com.liferay.portal.kernel.portlet.DefaultConfigurationAction</configuration-action-class>
+		<user-notification-definitions>shindig-messaging-notifications-def.xml</user-notification-definitions>
+		<user-notification-handler-class>de.iisys.liferay.portlet.shindigMessaging.messenger.ShindigMsgNotificationHandler</user-notification-handler-class>
+		<header-portlet-css>/css/schub.css</header-portlet-css>
+		<css-class-wrapper>shindig-messaging-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>ShindigMessaging HashtagView</portlet-name>
+		<icon>/images/msg-icon.png</icon>
+		<configuration-action-class>com.liferay.portal.kernel.portlet.DefaultConfigurationAction</configuration-action-class>
+		<header-portlet-css>/css/schub.css</header-portlet-css>
+		<css-class-wrapper>shindig-messaging-portlet</css-class-wrapper>
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>
